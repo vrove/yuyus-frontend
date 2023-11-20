@@ -1,8 +1,9 @@
-import './Login.css'
+import styles from './Login.module.css'
 
 const Login = () => {
     return (
-        <div className='container'>
+        <section className={styles.loginSection}>
+            <div className={styles.loginContainer}>
             <h1>Login Page</h1>
             <form>
                 <label>
@@ -20,6 +21,8 @@ const Login = () => {
                 </button>
             </form>
         </div>
+        </section>
+        
     )
 }
 
