@@ -1,0 +1,16 @@
+@import url(../../vars.css);
+
+.homeContainer{
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftContainer {
+    padding: 50px;
+}
+
+.rightContainer {
+    padding: 50px;
+}
