@@ -27,7 +27,7 @@ const Allproducts = ({ allProductsData, addToCart }) => {
                                     <i className='fa fa-star'></i>
                                 </div>
                                 <div className="price">
-                                    <h4>{product.price}.00</h4>
+                                    <h4>{product.price}.000</h4>
                                     <button onClick={() => addToCart(product)}>
                                         <i className='fa fa-plus'></i>
                                     </button>
