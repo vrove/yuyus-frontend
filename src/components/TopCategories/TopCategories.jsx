@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import TopCategoriesCard from './TopCategoriesCard';
 
 const TopCategories = () => {
@@ -12,7 +13,7 @@ const TopCategories = () => {
             <h2>Top Categories</h2>           
           </div>
           <div className="heading-right row">
-            <span>View All</span>
+            <span><Link to="/all-products">View All</Link></span>
             <i className="fa fa-caret-right"></i>
           </div>
         </div>

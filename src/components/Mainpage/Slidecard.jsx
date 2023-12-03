@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import shoppingData from './shoppingData';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -24,7 +25,7 @@ const Slidecard = () => {
                 <div className="left">
                     <h1>{value.title}</h1>
                     <p>{value.desc}</p>
-                    <button className='btn-primary'>Visit Collections</button>
+                    <button className='btn-primary' to="/all-products">Visit Collections</button>
                 </div>
                 <div className="right">
                     <img src={value.cover} alt="" />

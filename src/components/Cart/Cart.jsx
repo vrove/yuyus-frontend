@@ -42,6 +42,20 @@ const Cart = ({ cartItems, addToCart, deleteFromCart , checkOut, removeFromCart}
                             )
                         })}
                     </div>
+                    <div className="cart-payment product">
+                        <h2>Payment Method</h2>
+                        <div className="d_flex">
+                            <span className='payment-method'>
+                                Cash
+                            </span>
+                            <span className='payment-method'>
+                                GoPay
+                            </span>
+                            <span className='payment-method'>
+                                Dana
+                            </span>
+                        </div>
+                    </div>
                     <div className="cart-total product">
                         <h2>Cart Summary</h2>
                         <div className="d_flex">
@@ -50,7 +64,6 @@ const Cart = ({ cartItems, addToCart, deleteFromCart , checkOut, removeFromCart}
                         </div>
                         <button className='checkout' onClick={()=> checkOut(cartItems)}>Checkout Now!</button>
                     </div>
-
                 </div>
             </section>
         </>

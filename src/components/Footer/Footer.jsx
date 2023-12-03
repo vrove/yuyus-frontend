@@ -7,7 +7,7 @@ const Footer = () => {
             <footer>
                 <div className="container grid3">
                     <div className="box">
-                        <h1>Yuyus</h1>
+                    <img src="../../../public/assets/main-logo/yuyus-logo.png" alt="" style={{ width: '150px', paddingBottom: '20px' }} />
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, quia eius est sunt consectetur rem possimus officia minima reiciendis perspiciatis! Soluta corrupti nesciunt suscipit repellendus adipisci reiciendis veritatis, accusantium saepe?</p>
                     </div>
                     <div className='box'>

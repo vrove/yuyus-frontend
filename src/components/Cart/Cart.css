@@ -96,3 +96,27 @@
     font-weight: 400;
 }
 
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cart-payment.product .d_flex .payment-method {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cart-payment.product .d_flex .payment-method.selected {
+    background-color: #3498db; /* Change to your desired selected color */
+    color: #fff;
+}
