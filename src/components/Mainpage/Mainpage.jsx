@@ -1,5 +1,4 @@
 import React from 'react';
-import Categories from './Categories';
 import Slider from './Slider';
 import './mainpage.css';
 
@@ -9,7 +8,6 @@ const Mainpage = () => {
     <>
     <section className="main-page">
       <div className="container d_flex">
-        <Categories />
         <Slider />
       </div>
     </section>

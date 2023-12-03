@@ -14,7 +14,7 @@ const Search = ({ cartItems }) => {
                 <div className="container c_flex">
                     <div className="logo width">
                         <Link to="/">
-                            <h1>Yuyus</h1>
+                            <img src="assets\main-logo\yuyus-logo.png" alt="" />
                         </Link>
                     </div>
 

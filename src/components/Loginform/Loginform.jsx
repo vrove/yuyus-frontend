@@ -19,9 +19,9 @@ const Loginform = () => {
 							</label>
 							<label className='label'>
 								Password
-								<input type="text" name="password" />
+								<input type="password" name="password" />
 							</label>
-							<p className='forgot-pass'>Forgot Password ? <span><Link to="/forgot-password">Cick here to reset</Link></span></p>
+							<p className='forgot-pass'>Forgot Password ? <span><Link to="/">Cick here to reset</Link></span></p>
 							<button className='submit-btn'>Sign In</button>
 						</form>
 

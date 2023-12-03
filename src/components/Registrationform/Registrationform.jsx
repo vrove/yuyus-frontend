@@ -22,9 +22,9 @@ const Registrationform = () => {
 							</label>
 							<label className='label'>
 								Password
-								<input type="text" name="password" />
+								<input type="password" name="password" />
 							</label>
-							<p className='forgot-pass'>By signing up you agree to our <span><Link to="/termsNconditions">terms & conditions</Link></span></p>
+							<p className='forgot-pass'>By signing up you agree to our <span><Link to="/">terms & conditions</Link></span></p>
 							<button className='submit-btn'>Sign Up</button>
 						</form>
 

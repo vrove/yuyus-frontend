@@ -21,17 +21,7 @@ const Navbar = () => {
                             <li>
                                 <Link to="/all-products">All Products</Link>
                             </li>
-                            <li>
-                                <Link to="/login">Login</Link>
-                            </li>
-                            <li>
-                                <Link to="/registration">Registration</Link>
-                            </li>
-                            <li>
-                                <Link to="/contact">Contact Us</Link>
-                            </li>
                         </ul>
-
                         <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
                             {MobileMenu ? <i className='fas fa-times close home-btn'></i> : <i className='fa fa-bars open'></i>}
                         </button>
