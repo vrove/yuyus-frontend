@@ -62,7 +62,7 @@ const Cart = ({ cartItems, addToCart, deleteFromCart , checkOut, removeFromCart}
                             <h4>Total Price :</h4>
                             <h3>${totalPrice}.00</h3>
                         </div>
-                        <button className='checkout' onClick={()=> checkOut(cartItems)}>Checkout Now!</button>
+                        <button className='checkout' onClick={()=> checkOut(cartItems)}>Checkout Now!!</button>
                     </div>
                 </div>
             </section>
