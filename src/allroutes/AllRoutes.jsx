@@ -10,6 +10,7 @@ import Loginpage from "../pages/loginpage/Loginpage";
 import Registrationpage from "../pages/registrationpage/Registrationpage";
 import Allproductspage from "../pages/all-productspage/Allproductspage";
 import Singleproductpage from "../pages/product-details/Singleproductpage";
+import ProfilePage from "../pages/profilepage/ProfilePage";
 
 
 
@@ -27,6 +28,7 @@ const AllRoutes = ({ productItems, cartItems, addToCart, shopItems, deleteFromCa
           <Route path="/registration" element={<Registrationpage cartItems={cartItems} />} />
           <Route path="/all-products" element={<Allproductspage cartItems={cartItems} allProductsData={allProductsData} addToCart={addToCart}/>} />
           <Route path="/all-products/:id" element={<Singleproductpage cartItems={cartItems} allProductsData={allProductsData} addToCart={addToCart}/>} />
+          <Route path="/profile" element={<ProfilePage cartItems={cartItems} />} />
         </Routes>
       </BrowserRouter>
     </>
